@@ -1,0 +1,39 @@
+* {
+    background-color: darkcyan;
+    font-family: Georgia;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: darkslategrey;
+    color: goldenrod;
+    font-size: larger;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.odin-title {
+    background-color: darkslategrey;
+}
+
+.list {
+    font-size: larger;
+    list-style-type: none;
+    margin: auto;
+}
+
+.list a {
+    color: azure;
+    text-decoration: none;
+}
+
+.list.child {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.list.child:hover {
+    background-color: aqua;
+}
